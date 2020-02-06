@@ -7,7 +7,12 @@ class Dog
 def name
   @name
 end
+
+def breed=(pupper)
+  @breed = pupper
 end
+
+def breed
 
 
 fido = Dog.new 
