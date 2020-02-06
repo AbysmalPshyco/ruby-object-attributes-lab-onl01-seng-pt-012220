@@ -12,5 +12,9 @@ def job=(what_do)
   @job = what_do
  end
  
+ def job
+   @job
+  end
  
 end
+
