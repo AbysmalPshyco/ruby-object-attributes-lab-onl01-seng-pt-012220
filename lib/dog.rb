@@ -13,6 +13,9 @@ def breed=(pupper)
 end
 
 def breed
+  @breed
+  end
+end
 
 
 fido = Dog.new 
