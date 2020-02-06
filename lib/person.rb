@@ -1,10 +1,16 @@
 class Person
   
-  def name=(who_you)
+def name=(who_you)
     @name = who_you
-  end
+ end
   
-  def name
+def name
     @name 
-  end
+ end
+
+def job=(what_do)
+  @job = what_do
+ end
+ 
+ 
 end
